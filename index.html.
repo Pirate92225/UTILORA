@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTILORA - Boutique en ligne</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav {
+            background-color: #000;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 100;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+        section {
+            padding: 100px 20px 50px;
+        }
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .category {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .category div {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            width: 30%;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease;
+        }
+        .category div:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+        }
+        .category div img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .category div h3 {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        .category div p {
+            font-size: 1rem;
+            color: gray;
+        }
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #000;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+        .smooth-scroll {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+        .smooth-scroll a {
+            font-size: 1rem;
+            text-decoration: none;
+            color: #000;
+        }
+        .smooth-scroll a:hover {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#accessoires">Accessoires</a></li>
+        <li><a href="#decoration">Décoration</a></li>
+        <li><a href="#cosmetiques">Cosmétiques</a></li>
+    </ul>
+</nav>
+
+<section id="accueil">
+    <h2>Bienvenue chez UTILORA</h2>
+    <div class="smooth-scroll">
+        <a href="#accessoires">Voir Accessoires</a>
+        <a href="#decoration">Voir Décoration</a>
+        <a href="#cosmetiques">Voir Cosmétiques</a>
+    </div>
+</section>
+
+<section id="accessoires">
+    <h2>Accessoires</h2>
+    <div class="category">
+        <div>
+            <img src="https://via.placeholder.com/200" alt="Accessoire 1">
+            <h3>Bracelet Chic</h3>
+            <p>Un bracelet élégant pour vos tenues de tous les jours.</p>
+            <p>10 000 FCFA</p>
+            <a href="https://wa.me/225XXXXXXXXX">Commander</a>
+        </div>
+        <div>
+            <img src="https://via.placeholder.com/200" alt="Accessoire 2">
+            <h3>Montre Moderne</h3>
+            <p>Une montre tendance pour compléter votre style.</p>
+            <p>15 000 FCFA</p>
+            <a href="https://wa.me/225XXXXXXXXX">Commander</a>
+        </div>
+        <div>
+            <img src="https://via.placeholder.com/200" alt="Accessoire 3">
+            <h3>Chapeau Classique</h3>
+            <p>Le chapeau parfait pour toutes les occasions.</p>
+            <p>12 000 FCFA</p>
+            <a href="https://wa.me/225XXXXXXXXX">Commander</a>
+        </div>
+    </div>
+</section>
+
+<section id="decoration">
+    <h2>Décoration</h2>
+    <div class="category">
+        <div>
+            <img src="https://via.placeholder.com/200" alt="Décoration 1">
+            <h3>Poterie Artisanale</h3>
+            <p>Une poterie faite à la main pour votre maison.</p>
+            <p>20 000 FCFA</p>
+            <a href="https://wa.me/225XXXXXXXXX">Commander</a>
+        </div>
+        <div>
+            <img src="https://via.placeholder.com/200" alt="Décoration 2">
+            <h3>Vase Élégant</h3>
+            <p>Un vase simple mais élégant pour votre intérieur.</p>
+            <p>25 000 FCFA</p>
+            <a href="https://wa.me/225XXXXXXXXX">Commander</a>
+        </div>
+        <div>
+            <img src="https://via.placeholder.com/200" alt="Décoration 3">
+            <h3>Cadre Photo Design</h3>
+            <p>Un cadre moderne pour vos souvenirs préférés.</p>
+            <p>15 000 FCFA</p>
+            <a href="https://wa.me/225XXXXXXXXX">Commander</a>
+        </div>
+    </div>
+</section>
+
+<section id="cosmetiques">
+    <h2>Cosmétiques</h2>
+    <div class="category">
+        <div>
+            <img src="https://via.placeholder.com/200" alt="Cosmétique 1">
+            <h3>Crème Hydratante</h3>
+            <p>Hydrate et nourrit la peau en profondeur.</p>
+            <p>8 000 FCFA</p>
+            <a href="https://wa.me/225XXXXXXXXX">Commander</a>
+        </div>
+        <div>
+            <img src="https://via.placeholder.com/200" alt="Cosmétique 2">
+            <h3>Sérum Anti-Âge</h3>
+            <p>Pour une peau plus lisse et éclatante.</p>
+            <p>15 000 FCFA</p>
+            <a href="https://wa.me/225XXXXXXXXX">Commander</a>
+        </div>
+        <div>
+            <img src="https://via.placeholder.com/200" alt="Cosmétique 3">
+            <h3>Shampooing Naturel</h3>
+            <p>Un shampooing doux pour des cheveux sains.</p>
+            <p>10 000 FCFA</p>
+            <a href="https://wa.me/225XXXXXXXXX">Commander</a>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
